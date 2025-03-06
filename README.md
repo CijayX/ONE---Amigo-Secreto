@@ -54,10 +54,6 @@ Se eliminan caracteres especiales y números.
 
 El nombre ingresado se formatea con la primera letra en mayúscula.
 
-📷 Capturas de Pantalla
-
-Agrega aquí capturas de pantalla del juego en funcionamiento.
-
 📜 Licencia
 
 Este proyecto es de código abierto y puedes modificarlo libremente.
