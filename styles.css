@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilo para el campo de texto */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #e0e0e0;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Contenedor de botones */
+#contenedorBotones {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 15px;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la lista de nombres */
+#listaNombres {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#listaNombres li {
+    background: white;
+    margin: 5px auto;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el resultado del sorteo */
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo para el botón de volver a jugar */
+#btnReiniciar {
+    display: none;
+    background-color: #28a745;
+}
+
+#btnReiniciar:hover {
+    background-color: #218838;
+}
